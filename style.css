@@ -1,0 +1,35 @@
+/* * {
+    font-family: fantasy;
+} */
+
+
+body{
+    font-size: 24px;
+}
+/* #first>p {
+    color: green;
+} */
+/*for presidence in css #id > .class > element cascading doesnot matter here
+but cascading matters when on id is again overridden again later 
+in css class is more prefered to be used*/
+
+/* p:hover {
+    font-family: monospace;
+} */
+
+#first, #second {
+    color: red;
+}
+
+.purple {
+    color: purple !important;
+    /* here due to !important presidence is not mattering but it is preffered not to use more */
+    /* font-family: monospace; */
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bolder;
+    font-style: italic;
+
+}
